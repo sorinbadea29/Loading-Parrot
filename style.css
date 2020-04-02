@@ -1,0 +1,148 @@
+:root{
+   --background: #0E0E0E;
+   --hair: #10684B;
+   --white:#fff;
+   --eye:#0E0E0E;
+   --bigBeak:#B71314;;
+   --smallBeak:#eb5e0c;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    overflow: hidden;
+}
+
+.wrapper{
+    width:100vw;
+    height:100vh;
+    background: var(--background);
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.bird{
+    position:relative;
+    width:250px;
+    height:250px;
+}
+
+.hair-container{
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+}
+
+.hair{
+    position:absolute;
+    width:50%;
+    height:100%;
+    top:0;
+    left:50%;
+    background: var(--hair);
+    border-radius: 0 125px 125px 0;
+}
+
+.face{
+    position:absolute;
+    width:70%;
+    height:70%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    z-index:1;
+}
+
+.white-container{
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    z-index:1;
+}
+
+.white{
+    position:absolute;
+    width:50%;
+    height:100%;
+    top:0;
+    left:50%;
+    border-radius:0 87.5px 87.5px 0;
+    background:var(--white);
+}
+
+.shadow-container{
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    z-index:2;
+}
+
+.shadow{
+    position:absolute;
+    width:50%;
+    height:50%;
+    top:50%;
+    left:50%;
+    background:rgba(0, 0, 0, 0.15);
+    border-radius: 0 0 87.5px 0 ;
+}
+
+.bigBeak-container{
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    z-index:3;
+}
+
+.bigBeak{  
+    position:absolute;
+    width:50%;
+    height:50%;
+    top:0;
+    left:0;
+    background:var(--bigBeak);
+    border-radius: 87.5px 0 0 0;
+}
+
+.smallBeak-container{
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    z-index:3; 
+}
+
+.smallBeak{
+    position: absolute;
+    width:25%;
+    height:25%;
+    top:50%;
+    left:25%;
+    background:var(--smallBeak);
+    border-radius:0 0 0 43.25px;
+}
+
+.eye{
+    position:absolute;
+    width:25%;
+    height:25%;
+    bottom:51%;
+    left:51%;
+    background:var(--eye);
+    border-radius:50%;
+    z-index:2;
+}
