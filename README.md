@@ -1,2 +1,2 @@
 # Simple Parrot
-Using HTML, CSS Position
+Using CSS Position
