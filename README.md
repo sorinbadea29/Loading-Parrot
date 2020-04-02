@@ -1,2 +1,2 @@
-# sorinbadea29
-1. Simple Parrot
+# Simple Parrot
+Using HTML, CSS Position
