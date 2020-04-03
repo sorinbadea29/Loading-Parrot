@@ -1,2 +1,2 @@
-# Simple Parrot
-Using CSS Position
+# Loading Parrot
+Using CSS Position and keyframes
